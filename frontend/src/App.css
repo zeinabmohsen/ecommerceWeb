@@ -1,0 +1,138 @@
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  .container{
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto; 
+    margin-right: auto;
+  
+  }
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px
+}
+
+
+
+.title{
+  color: #000;
+  font-family: Inter;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3rem;
+  letter-spacing: 0.09rem;
+}
+
+.mainTitle{
+  color:  #DB4444 !important;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25rem; /* 125% */
+  margin-bottom: 0;
+}
+
+p,a{
+  color: var(--Text2, #000);
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5rem; /* 150% */
+}
+
+.link,a{
+  text-decoration: none;
+  color: #DB4444;
+  cursor: pointer;
+}
+
+.card{
+  border-radius: 0.25rem;
+  border: 1px solid rgba(0, 0, 0, 0.30);
+  align-items: center;
+  padding-top: 10px;
+}
+
+.formContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  margin: 10px;
+}
+.form{
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(198, 94, 94, 0.2); 
+  padding: 20px; 
+  width: 500px;
+}
+
+
+/* App.css */
+
+
+.pcontainer {
+  text-align: center;
+  padding: 20px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.pagination li {
+  margin: 5px;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #eee;
+}
+
+.pagination li.active {
+  background-color: #DB4444; 
+  color: #fff; 
+}
+
+.pagination li:hover {
+  background-color: #ccc;
+  transition: background-color 0.3s;
+}
+
+
+.pagination .previous a {
+  margin: 10px;
+  text-decoration: none;
+  color: #DB4444;
+  cursor: pointer;
+}
+
+.pagination .next a{
+  margin: 10px;
+  text-decoration: none;
+  color: #DB4444;
+  cursor: pointer;
+}
+
+.pagination .break-me {
+  font-size: 20px;
+}
+.btn{
+  background-color: #DB4444 !important;
+}
