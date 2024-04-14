@@ -24,7 +24,7 @@ const uploadImage = multer({ storage, fileFilter });
 const createProduct = async (req, res) => {
   try {
     const { name, price, description, category_id } = req.body;
-    const imageUrl = `/uploads/${req.file.filename}`;
+    const imageUrl = `/uploads/records/${req.file.filename}`;
 
     const query = `
       INSERT INTO products (name, price, description, category_id, image_url)
